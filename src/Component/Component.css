@@ -185,7 +185,7 @@ nav a {
   }
 
   50% {
-    transform: translateY(-20px); /* Adjust the distance of movement */
+    transform: translateY(-20px); 
   }
 }
 .main-image-container {
@@ -419,12 +419,12 @@ nav a {
 }
 
 .circle-progress .background {
-  stroke: #ccc; /* Background color */
+  stroke: #ccc; 
 }
 
 .circle-progress .progress {
-  stroke: #1c8074; /* Progress color */
-  transition: stroke-dashoffset 0.5s; /* Animation duration */
+  stroke: #1c8074;
+  transition: stroke-dashoffset 0.5s; 
 }
 .feature-container {
   display: flex;
