@@ -68,7 +68,7 @@ function Mcqsection() {
         {showScore ? (
           <div className="result-container">
             <div>
-              {score > 1 ? (
+              {score > 7 ? (
                 <>
                   <h2>
                     Your Score: {score}/{questions.length}
