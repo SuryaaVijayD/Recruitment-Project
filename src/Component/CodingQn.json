@@ -1,0 +1,69 @@
+[
+    {
+      "id": 1,
+      "question": "Write a function that takes a number as input and returns true if it's even, false otherwise.",
+      "output": "function isEven(num) { return num % 2 === 0; }",
+      "complexity": "Beginner"
+    },
+    {
+      "id": 2,
+      "question": "Write a function that takes a string as input and returns a new string with all characters reversed.",
+      "output": "function reverseString(str) { return str.split('').reverse().join(''); }",
+      "complexity": "Beginner"
+    },
+    {
+      "id": 3,
+      "question": "Write a function that takes an array of numbers as input and returns the sum of all elements.",
+      "output": "function sumArray(arr) { return arr.reduce((a, b) => a + b, 0); }",
+      "complexity": "Beginner"
+    },
+    {
+      "id": 4,
+      "question": "Write a function that takes an array of strings as input and returns a new array with only unique strings.",
+      "output": "function removeDuplicates(arr) { return [...new Set(arr)]; }",
+      "complexity": "Intermediate"
+    },
+    {
+      "id": 5,
+      "question": "Write a function that takes a binary string as input (containing only 0s and 1s) and returns the decimal equivalent.",
+      "output": "function binaryToDecimal(str) { return parseInt(str, 2); }",
+      "complexity": "Intermediate"
+    },
+    {
+      "id": 6,
+      "question": "Write a function that takes a linked list as input and reverses the order of its nodes.",
+      "output": "// This example requires defining a linked list node structure",
+      "complexity": "Intermediate"
+    },
+    {
+      "id": 7,
+      "question": "Write a function that takes a tree structure as input and performs a depth-first search (DFS) traversal.",
+      "output": "// This example requires defining a tree node structure",
+      "complexity": "Advanced"
+    },
+    {
+      "id": 8,
+      "question": "Write a function that implements a simple bubble sort algorithm to sort an array of numbers in ascending order.",
+      "output": "function bubbleSort(arr) { for (let i = 0; i < arr.length; i++) { for (let j = 0; j < arr.length - i - 1; j++) { if (arr[j] > arr[j + 1]) { [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]]; } } } return arr; }",
+      "complexity": "Intermediate"
+    },
+    {
+      "id": 9,
+      "question": "Explain the concept of time and space complexity in algorithms.",
+      "output": "Time complexity refers to the amount of time an algorithm takes to execute, often measured in Big O notation. Space complexity refers to the amount of memory an algorithm uses during execution.",
+      "complexity": "Conceptual"
+    },
+    {
+      "id": 10,
+      "question": "What are the different types of data structures and their use cases?",
+      "output": "Common data structures include arrays, linked lists, stacks, queues, trees, and graphs. Each has specific strengths and weaknesses depending on the problem you're solving.",
+      "complexity": "Conceptual"
+    },
+    {
+      "id": 30,
+      "question": "Explain the difference between functional and object-oriented programming paradigms.",
+      "output": "Functional programming focuses on pure functions and immutable data, while object-oriented programming uses objects and classes to encapsulate data and behavior.",
+      "complexity": "Conceptual"
+    }
+  ]
+  
